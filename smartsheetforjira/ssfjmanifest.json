@@ -1,0 +1,11 @@
+{
+    "id": "smartsheetforjira",
+    "scripts": ["js/ssfj.js"],
+    "commands": [
+        {
+            "kind": "account_menu",
+            "id": "launchwindow",
+            "label": "Smartsheet for JIRA"
+        }
+    ]
+}
