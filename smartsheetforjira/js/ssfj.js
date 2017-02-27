@@ -14,4 +14,4 @@ function myCommandHandler(cmdInfo) {
         break;
     }
 }
-console.log('hi from plugin!');
+console.log('ssfj plugin js loaded!');

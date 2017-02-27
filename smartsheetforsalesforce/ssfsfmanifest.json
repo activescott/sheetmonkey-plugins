@@ -1,0 +1,11 @@
+{
+    "id": "smartsheetforsalesforce",
+    "scripts": ["js/ssfsf.js"],
+    "commands": [
+        {
+            "kind": "account_menu",
+            "id": "sf_open",
+            "label": "Smartsheet for Salesforce"
+        }
+    ]
+}
