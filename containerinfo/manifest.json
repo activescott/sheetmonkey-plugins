@@ -1,0 +1,11 @@
+{
+    "id": "containerinfodemo",
+    "scripts": ["js/containerinfo.js"],
+    "commands": [
+        {
+            "kind": "account_menu",
+            "id": "containerinfo",
+            "label": "Show Container Info"
+        }
+    ]
+}
