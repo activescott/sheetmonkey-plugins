@@ -1,5 +1,8 @@
 {
-    "id": "smartsheetforsalesforce",
+    "name": "Smartsheet for Salesforce",
+    "subtitle": "Increase Productivity",
+    "icon": "images/ssfsf.png",
+    "description": "Smartsheet for Salesforce enables powerful collaboration capabilities for sales teams to organize, update, and share customer information with internal and external team members. Data is automatically synchronized whether edited in Smartsheet or Salesforce, ensuring all stakeholders are viewing the most up-to-date information.",
     "scripts": ["js/ssfsf.js"],
     "commands": [
         {

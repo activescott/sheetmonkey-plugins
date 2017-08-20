@@ -1,5 +1,8 @@
 {
-    "id": "smartsheetforjira",
+    "name": "Smartsheet for JIRA",
+    "subtitle": "Unify Teams Across Your Organization",
+    "icon": "images/ssfj.png",
+    "description": "Smartsheet for JIRA provides visibility into IT and software development projects being tracked in JIRA. Issues are automatically synchronized whether edited in Smartsheet or JIRA, ensuring every record is up to date.",
     "scripts": ["js/ssfj.js"],
     "commands": [
         {
