@@ -1,0 +1,14 @@
+{
+  "name": "Selection Info",
+  "subtitle": "Demonstrates accessing the current grid cell selection information.",
+  "icon": "selectioninfo.png",
+  "description": "Demonstrates accessing the current grid cell selection information.",
+  "scripts": ["selectioninfo.js"],
+  "commands": [
+      {
+          "kind": "cell_context_menu",
+          "id": "selectioninfo",
+          "label": "Show Selection Info"
+      }
+  ]
+}
