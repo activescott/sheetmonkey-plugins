@@ -1,0 +1,9 @@
+{
+  "name": "sheetmonkey-plugins",
+  "repository": "git@github.com:activescott/sheetmonkey-plugins.git",
+  "author": "Scott Willeke <scott@willeke.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}

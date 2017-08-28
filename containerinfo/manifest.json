@@ -1,5 +1,8 @@
 {
-    "id": "containerinfodemo",
+    "name": "Container Info",
+    "subtitle": "Demonstrates accessing the current Sheet, Sight, or Report.",
+    "icon": "images/placeholder.png",
+    "description": "Demonstrates accessing the current Sheet, Sight, or Report.",
     "scripts": ["js/containerinfo.js"],
     "commands": [
         {
