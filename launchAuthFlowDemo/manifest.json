@@ -1,0 +1,14 @@
+{
+  "name": "LaunchAuthFlow",
+  "subtitle": "Demonstrates authenticating to Smartsheet's REST API via a plugin.",
+  "icon": "launchauthflow.png",
+  "description": "Demonstrates accessing the current grid cell selection information.",
+  "scripts": ["launchauthflow.js"],
+  "commands": [
+    {
+      "kind": "account_menu",
+      "id": "launchauthflow",
+      "label": "LaunchAuthFlow"
+    }
+  ]
+}
