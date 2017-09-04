@@ -4,6 +4,7 @@
   "icon": "launchauthflow.png",
   "description": "Demonstrates accessing the current grid cell selection information.",
   "scripts": ["launchauthflow.js"],
+  "apiClientID": "5mo4yasvlzkirava9z",
   "commands": [
     {
       "kind": "account_menu",
