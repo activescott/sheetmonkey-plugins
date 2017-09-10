@@ -17,7 +17,7 @@ function myCommandHandler (cmdInfo) {
         let data = null
         console.assert(container.containerType === 'sheet', 'unexpected container type:', container.containerType)
         const sheetID = container.containerID
-        SheetMonkeyHost.apiRequest('GET', `https://api.smartsheet.com/2.0/sheets/${sheetID}?pageSize=1`, headers, data).then(response => {
+        SheetMonkeyHost.apiRequest('GET', `sheets/${sheetID}?pageSize=1`, headers, data).then(response => {
           console.log('api response:', response)
           // TODO: Consider this https://stackoverflow.com/a/30810322
           window.prompt('Copy to clipboard: Ctrl+C, Enter', response.permalink)
