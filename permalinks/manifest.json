@@ -3,7 +3,7 @@
   "subtitle": "Get a permalink to a row, sheet, sight, or report to the clipboard",
   "icon": "permalinks.png",
   "description": "Makes it easy to get a permalink to a row, sheet, sight, or report. Also demonstrates how a plugin can use the Smartsheet REST API.",
-  "scripts": ["permalinks.js"],
+  "scripts": ["js.js"],
   "apiClientID": "1pk49gwqo3q9etsi460",
   "commands": [
     {
