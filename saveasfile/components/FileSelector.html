@@ -1,0 +1,35 @@
+<input type="file" id="fileElem" accept=".smartsheet" style="display:none" on:change="handleFiles(this.files)">
+
+<script>
+import Promise from 'bluebird'
+let rejector = null
+let resolver = null
+export default {
+  methods: {
+    selectFiles () {
+      return new Promise((resolve, reject) => {
+        rejector = reject
+        resolver = resolve
+        fileElem.click()
+      })
+    },
+    handleFiles (files) {
+      console.log('handleFiles!')
+      console.log('files length:', files.length)
+      if (!files.length) {
+        rejector(new Error('No file selected'))
+      } else {
+        for (var i = 0; i < files.length; i++) {
+          let fr = new FileReader()
+          fr.addEventListener('loadend', evt => {
+            console.log('loadend!')
+            resolver(fr.result)
+          })
+          fr.readAsText(files[i])
+        }
+      }
+    }
+  }
+}
+</script>
+

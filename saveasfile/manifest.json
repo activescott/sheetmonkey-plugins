@@ -1,0 +1,20 @@
+{
+  "name": "Save and open Sheets, Sights, and Reports to/from file.",
+  "subtitle": "Save and restore your sheets, sights, reports from file them with full fidelity.",
+  "icon": "icon.png",
+  "description": "Save a sheet, sight, or report to a file and load them back into Smartsheet again with full fidelity.",
+  "scripts": ["index_dist.js", "FileSaver.min.js"],
+  "apiClientID": "ls3axbbjpxrkluv0y",
+  "commands": [
+    {
+      "kind": "sheet_menu",
+      "id": "saveas",
+      "label": "Save archive file"
+    },
+    {
+      "kind": "sheet_menu",
+      "id": "open",
+      "label": "Open archive file"
+    }    
+  ]
+}
