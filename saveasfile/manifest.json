@@ -1,8 +1,8 @@
 {
-  "name": "Save and open Sheets, Sights, and Reports to/from file.",
-  "subtitle": "Save and restore your sheets, sights, reports from file them with full fidelity.",
+  "name": "Archive sheets to file",
+  "subtitle": "Archive and restore your sheets from file with full fidelity.",
   "icon": "icon.png",
-  "description": "Save a sheet, sight, or report to a file and load them back into Smartsheet again with full fidelity.",
+  "description": "Save your sheets to a local file on your computer and later restore them from file with (NOT) full fidelity.",
   "scripts": ["index_dist.js", "FileSaver.min.js"],
   "apiClientID": "ls3axbbjpxrkluv0y",
   "commands": [
